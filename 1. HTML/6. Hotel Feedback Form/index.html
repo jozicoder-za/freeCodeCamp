@@ -5,5 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Feedback Form</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Hotel Feedback Form</h1>
+    <p>Please spare us a minute to complete this form</p>
+    <form action="#">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name (required):</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          required
+          placeholder="Ex. John Doe"
+        />
+        <label for="email">Email Address (required):</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="example@email.com"
+          minlength="7"
+          maxlength="20"
+        />
+        <label for="age">Age (optional):</label>
+        <input type="number" name="age" id="age" min="18" max="75" />
+      </fieldset>
+      <fieldset>
+        <legend>Was this your first time at our hotel?</legend>
+        <label for="yes">Yes</label>
+        <input type="radio" name="hotel-stay" id="yes" value="yes" />
+        <label for="no">No</label>
+        <input type="radio" name="hotel-stay" id="no" value="no" />
+      </fieldset>
+      <fieldset>
+        <legend>
+          Why did you choose to stay at our hotel? (Check all that apply)
+        </legend>
+        <label for="media-ads">Social Media Ads</label>
+        <input
+          type="checkbox"
+          name="media-ads"
+          id="media-ads"
+          value="media-ads"
+        />
+        <label for="recommendation">Personal Recommendation</label>
+        <input
+          type="checkbox"
+          name="recommendation"
+          id="recommendation"
+          value="recommendation"
+        />
+        <label for="location">Location</label>
+        <input type="checkbox" name="location" id="location" value="location" />
+        <label for="reputation">Reputation</label>
+        <input
+          type="checkbox"
+          name="reputation"
+          id="reputation"
+          value="reputation"
+        />
+        <label for="price">Price</label>
+        <input type="checkbox" name="price" id="price" value="price" checked />
+      </fieldset>
+      <fieldset>
+        <legend>Ratings</legend>
+        <label for="service">How was the service?</label>
+        <select name="service" id="service">
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="bad">Bad</option>
+        </select>
+        <label for="food">How was the food?</label>
+        <select name="food" id="food">
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="bad">Bad</option>
+        </select>
+      </fieldset>
+      <label for="comments">Other Comments?</label>
+      <textarea name="comments" id="comments" cols="20" rows="8"></textarea>
+      <input type="submit" value="submit" />
+    </form>
+  </body>
 </html>
