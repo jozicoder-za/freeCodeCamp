@@ -1,0 +1,53 @@
+.menu {
+  background-color: burlywood;
+  width: 70%;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.item p {
+  display: inline-block;
+  margin: 5px 0;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 74%;
+}
+
+.price {
+  text-align: right;
+  width: 24%;
+}
+
+h1,
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+}
+
+.established {
+  font-style: italic;
+}
+
+address p {
+  font-style: normal;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+address a {
+  color: black;
+}
+
+address a:hover {
+  color: brown;
+}
