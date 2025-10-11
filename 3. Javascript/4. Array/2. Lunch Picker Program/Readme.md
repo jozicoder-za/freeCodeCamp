@@ -17,4 +17,27 @@ Build a program that helps in managing lunch options. You'll work with an array 
 - Log the string `"[Lunch Item] added to the start of the lunch menu."` to the console, where `[Lunch Item]` is the string passed to the function.
 - Return the updated array.
 
-4.
+4. You should create a function `removeLastLunch` that takes an array as its argument. The function should:
+
+- Remove the last element from the array.
+- If the removal is successful, log the string `"[Lunch Item] removed from the end of the lunch menu."` to the console, where `[Lunch Item]` is the element removed from the array.
+- If the array is empty, log the string `"No lunches to remove."` to the console.
+- Return the updated array.
+
+5. You should create a function `removeFirstLunch` that takes an array as its argument. The function should:
+
+- Remove the first element from the array.
+- If the removal is successful, log the string `"[Lunch Item] removed from the start of the lunch menu."` to the console, where `[Lunch Item]` is the element removed from the array.
+- If the array is empty, log the string `"No lunches to remove."` to the console.
+- Return the updated array.
+
+6. You should create a function `getRandomLunch` that takes an array as its argument. The function should:
+
+- Select a random element from the array.
+- If successful, log the string `"Randomly selected lunch: [Lunch Item]"` to the console, where `[Lunch Item]` is a random element in the array.
+- If the array is empty, log the string `"No lunches available."` to the console.
+
+7. You should create a function `showLunchMenu` that takes an array as its argument and:
+
+- If there are elements in the array, logs the string `"Menu items: [Lunch Item], [Lunch Item]..."` to the console, where each `[Lunch item]` is one of the elements in the array, in order.
+- If the array is empty, logs the string `"The menu is empty."` to the console.
