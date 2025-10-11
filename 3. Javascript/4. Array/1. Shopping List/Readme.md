@@ -48,3 +48,42 @@
 ### Step 10
 
 - See updated items by calling the `getShoppingListMsg` function inside a `console.log`
+
+### Step 11
+
+- Use the push method to add multiple items as once
+- Use `push()` to add strings `"Popcorn", "Beef Jerky", "Potato Chips"` to the `shoppingList` array
+
+### Step 12
+
+- console.log the `getShoppingListMsg` function to see the updated array
+
+### Step 13
+
+- `console.log` the message `"This looks like too much junk food."`
+
+### Step 14
+
+- Use the `pop()` method to remove the last item from the `shoppingList` array.
+
+### Step 15
+
+- console.log the `getShoppingListMsg` function to see the updated array
+
+### Step 16
+
+- first console the message `"It might be nice to get a dessert."`
+- Use the correct method to add the string `"Chocolate Cake"` to the beginning of the `shoppingList` array
+- console.log the `getShoppingListMsg` function to see the updated array
+
+### Step 17
+
+- console.log the message `"On second thought, maybe we should be more health conscious."`
+
+### Step 18
+
+- Use the `shift()` method to remove the first item from the `shoppingList` array
+
+### Step 19
+
+- Update the first item in the `shoppingList` array to be `"Canola Oil"`
