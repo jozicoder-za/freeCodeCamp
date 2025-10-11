@@ -87,3 +87,7 @@
 ### Step 19
 
 - Update the first item in the `shoppingList` array to be `"Canola Oil"`
+
+### Step 20
+
+- console.log the `getShoppingListMsg` function to see the updated array
